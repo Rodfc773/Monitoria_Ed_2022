@@ -8,7 +8,11 @@ struct  Arvore
     Arvore *esquerda;
 };
 
+//Função para inserir nós na árvore
+
 Arvore *inserir( Arvore *raiz, int elemento){
+
+    //Caso a arvore esteja vazia ou seja uma folha aser criado, alocamos memória para criação do novo nó
 
     if(raiz == NULL){
 
@@ -20,12 +24,17 @@ Arvore *inserir( Arvore *raiz, int elemento){
 
         return raiz;
     }
+    //Caso árvore não esteja vazia, percorremos ela de forma que  respeite certas regras para o novo nó ser inserido
     else{
-
+        /*Caso o elemento que se encontra nó for maior que o elemento que queremos inserir:
+            Pecorremos a arvore pelo ponteiro da Esquerda*/
         if(raiz->id > elemento){
 
             raiz->esquerda = inserir(raiz->esquerda, elemento);
         }
+
+        /*Caso o elemento que se encontra nó for menor que o elemento que queremos inserir:
+            Pecorremos a arvore pelo ponteiro da Direita*/
 
         if(raiz->id < elemento){
 
@@ -36,9 +45,11 @@ Arvore *inserir( Arvore *raiz, int elemento){
 }
 void printArvore(Arvore *raiz){
 
+    //Caso o nó não exista, printamos NULL
     if(raiz == NULL){
         printf("NULL");
     }
+    // Printa a arvore no método IN-ORDEM
     else{
         printf("(");
         printArvore(raiz->esquerda);
