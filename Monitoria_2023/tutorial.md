@@ -21,3 +21,14 @@ apt-get install libxmu-dev libxi-dev
     8 - sudo apt-get install mesa-common-dev
     9 - sudo apt-get install mesa-common-dev
     10 - sudo apt-get install libglew1.5-dev libglm-dev
+
+
+### Link do video:
+
+- https://drive.google.com/file/d/1AE5_q8YzeU4UDY1QCV5RdnqMw5rJMk7d/view?usp=sharing
+(Entrar com o email institucional)
+
+### Link dos tutorias:
+
+- https://pt.wikihow.com/Instalar-Mesa-(OpenGL)-no-Linux-Mint
+- https://edisciplinas.usp.br/pluginfile.php/4264396/mod_resource/content/1/guia-de-instalacao.pdf
