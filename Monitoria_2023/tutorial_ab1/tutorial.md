@@ -23,10 +23,16 @@ apt-get install libxmu-dev libxi-dev
     10 - sudo apt-get install libglew1.5-dev libglm-dev
 
 
-### Link do video:
+### Link do video1:
 
-- https://drive.google.com/file/d/1AE5_q8YzeU4UDY1QCV5RdnqMw5rJMk7d/view?usp=sharing
+- <https://drive.google.com/file/d/1AE5_q8YzeU4UDY1QCV5RdnqMw5rJMk7d/view?usp=sharing>
 (Entrar com o email institucional)
+
+### Link do video de primitivas do opengl:
+
+- <https://drive.google.com/file/d/1SamrdQz2eRZp-IRULi83l5YqL7qcSTCj/view?usp=sharing>
+(Entrar com o email institucional)
+
 
 ### Link dos tutorias:
 
